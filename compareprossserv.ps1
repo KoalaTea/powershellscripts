@@ -12,7 +12,7 @@ if(Test-Path service2.txt){
 	Get-Process | Out-File service2.txt
 }
 
-
+#to test
 $ref = Get-Content 'serivice.txt'
 
 (Get-Content 'service2.txt') |
